@@ -9,11 +9,11 @@ class Encerrador
     private $dao;
     private $enviadorEmail;
 
-    public function __construct(LeilaoDao $dao, EnviadorEmail $enviadorEmail)
+    /*public function __construct(LeilaoDao $dao, EnviadorEmail $enviadorEmail)
     {
         $this->dao = $dao;
         $this->enviadorEmail = $enviadorEmail;
-    }
+    }*/
 
     public function encerra()
     {
